@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	$(".allaudios").hide();
 
-    $(".title_handling h4").click(function() {
+    $(".title_handling h3").click(function() {
 		jQuery(this).next(".audios").slideToggle();
 	});
 });
