@@ -14,6 +14,6 @@ $(document).ready(function(){
 	$(".allaudios").hide();
 
     $(".title_handling h3").click(function() {
-		jQuery(this).next(".audios").slideToggle();
+		jQuery(this).next(".allaudios").slideToggle();
 	});
 });
