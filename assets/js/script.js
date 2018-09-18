@@ -6,6 +6,6 @@ $(document).ready(function(){
 
 	// click the titles
     $("h3").click(function() {
-		$(this).next(".allaudios").slideToggle();
+		$(".allaudios").slideToggle();
 	});
 });
